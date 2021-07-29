@@ -228,3 +228,28 @@ Successful response is the updated item returned and looks like this:
   "price": 27,
 }
 ```
+
+### Have a Random Encounter: GET /api/pokemon/random
+
+This route returns one random Pokemon.
+
+Successful response looks like this:
+
+```json
+{
+
+}
+```
+
+### Have a Battle: GET /api/pokemon/battle
+
+This route returns the opponent Pokemon with its updated `captured` property if
+the Pokemon was successfully captured.
+
+Successful response looks like this:
+
+```json
+{
+
+}
+```
